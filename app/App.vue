@@ -1,14 +1,19 @@
 <template>
   <Page>
-    <ActionBar title="Vue-NativeScript Clock"/>
+    <ActionBar title="#JavaScript30 - Clock_02"/>
     <TabView>
       <TabViewItem title="Show me the Clock!">
         <StackLayout>
-          <Label class="clock" :text="`${hours}:${minutes}:${seconds} ${meridiem}`"/>
+          <Label class="clock" :text="`${hours}:${minutes}:${seconds} ${meridiem}`" backgroundColor="#000000"/>
+          <Label class="description" text="For this project, I used JavaScript Date() methods with Vue's reactivity system to display the current time down to the second." textWrap="true"/>
+          <Label class="footer" text="This mobile application was built using Vue-NativeScript!" textWrap="true"/>
+          <Image class="vns-logo" src="~/assets/images/ns-vue.png"/>
         </StackLayout>
       </TabViewItem>
       <TabViewItem title="About Me">
-        <WebView class="bio" src="~/assets/clock.html"/>
+        <StackLayout class="bio">
+        <WebView src="~/assets/clock.html"/>
+        </StackLayout>
       </TabViewItem>
     </TabView>
 
@@ -53,19 +58,43 @@
 
 <style scoped>
   ActionBar {
-    background-color: #53ba82;
+    /*background-color: #292b2c;*/
+    background-color: #2b2d2e;
     color: #ffffff;
   }
 
-  Label {
-    padding: 25;
-    font-size: 64;
+  Label.clock {
+    margin: 24;
+    color: #08ff00;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 12;
+    text-align: center;
+    font-size: 48;
+    border-radius: 25px;
   }
 
+  Label.description {
+    padding: 24;
+    font-size: 22;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+
+  Label.footer {
+    padding: 24;
+    padding-bottom: 0;
+    font-size: 22;
+    text-align: center;
+  }
+
+  Image.vns-logo {
+    padding: 48;
+    margin: 24;
+  }
 
   .bio {
     padding: 25;
   }
-
 
 </style>

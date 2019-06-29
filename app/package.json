@@ -3,6 +3,6 @@
     "v8Flags": "--expose_gc"
   },
   "main": "main",
-  "name": "alarmclock_02",
+  "name": "clock_02",
   "version": "1.0.0"
 }

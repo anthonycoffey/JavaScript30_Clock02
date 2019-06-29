@@ -1,11 +1,11 @@
 // Add your native dependencies here:
 
 android {
-  defaultConfig {  
+  defaultConfig {
     generatedDensities = []
-    applicationId = "com.nativescript.alarmclock"
+    applicationId = "com.nativescript.clock"
   }
-  aaptOptions {  
-    additionalParameters "--no-version-vectors"  
-  }  
-} 
+  aaptOptions {
+    additionalParameters "--no-version-vectors"
+  }
+}

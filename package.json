@@ -1,11 +1,11 @@
 {
-  "name": "alarmclock_02",
+  "name": "clock_02",
   "version": "1.0.0",
-  "description": "An alarm clock built with Vue-NativeScript, bootstrapped with Vue CLI!",
+  "description": "A simple clock built with Vue-NativeScript, bootstrapped with Vue CLI!",
   "author": "Anthony Coffey <coffey.j.anthony@gmail.com>",
   "license": "MIT",
   "nativescript": {
-    "id": "com.nativescript.alarmclock",
+    "id": "com.nativescript.clock",
     "tns-ios": {
       "version": "5.4.2"
     },
