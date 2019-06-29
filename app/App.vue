@@ -5,9 +5,9 @@
       <TabViewItem title="Show me the Clock!">
         <StackLayout>
           <Label class="clock" :text="`${hours}:${minutes}:${seconds} ${meridiem}`" backgroundColor="#000000"/>
-          <Label class="description" text="For this project, I used JavaScript Date() methods with Vue's reactivity system to display the current time down to the second." textWrap="true"/>
+          <Label class="description" text="For this project, I used JavaScript Date methods with Vue's reactivity system to display the current time down to the second." textWrap="true"/>
           <Label class="footer" text="This mobile application was built using Vue-NativeScript!" textWrap="true"/>
-          <Image class="vns-logo" src="~/assets/images/ns-vue.png"/>
+          <Image class="vns-logo" src="~/assets/images/ns-vue.png" stretch="none"/>
         </StackLayout>
       </TabViewItem>
       <TabViewItem title="About Me">
@@ -58,7 +58,6 @@
 
 <style scoped>
   ActionBar {
-    /*background-color: #292b2c;*/
     background-color: #2b2d2e;
     color: #ffffff;
   }
@@ -94,7 +93,7 @@
   }
 
   .bio {
-    padding: 25;
+    padding: 12;
   }
 
 </style>

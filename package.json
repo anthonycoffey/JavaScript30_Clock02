@@ -4,6 +4,9 @@
   "description": "A simple clock built with Vue-NativeScript, bootstrapped with Vue CLI!",
   "author": "Anthony Coffey <coffey.j.anthony@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build-android": "tns build android --bundle --release --key-store-path C:\\Users\\coffe\\WebstormProjects\\javascript30\\alarmclock_02\\keystore.jks --key-store-password test1234 --key-store-alias key0 --key-store-alias-password test1234"
+  },
   "nativescript": {
     "id": "com.nativescript.clock",
     "tns-ios": {
