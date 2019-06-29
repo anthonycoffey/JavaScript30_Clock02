@@ -3,6 +3,7 @@
 package-lock.json
 # NPM
 node_modules
+keystore.jks
 
 # NativeScript application
 hooks
