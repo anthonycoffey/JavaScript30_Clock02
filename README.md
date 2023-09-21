@@ -1,6 +1,6 @@
-# Vue-NativeScript Clock
+# Vue-NativeScript Useless Clock
 
-> A simple clock built with Vue-NativeScript, bootstrapped with Vue CLI.
+> A useless clock built with Vue-NativeScript, bootstrapped with Vue CLI.
 
 For this project, I used JavaScript Date() methods with Vue's reactivity system to display the current time down to the second.
 
